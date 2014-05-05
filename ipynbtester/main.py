@@ -9,15 +9,15 @@ from IPython.display import HTML
 from tagtor import helper as h, table
 
 @register_line_magic
-def runtests(line):
+def runaway(line):
     """
-    The %runtests magic searches your IPython namespace for functions
+    The %runaway magic searches your IPython namespace for functions
     with names that begin with 'test'. It will attempt to run these
     functions (calling them with no arguments), and report whether they
     pass, fail (raise an AssertionError), or error (raise any other
     kind of error).
 
-    For tests that fail or error %runtests will show the exception raised
+    For tests that fail or error %runaway will show the exception raised
     but not the traceback, so write informative messages!
 
     """
