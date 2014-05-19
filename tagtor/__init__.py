@@ -2,4 +2,8 @@
 # -*- coding: utf-8 -*-
 # file: __init__.py
 
-from main import helper, table
+from main import helper
+from svg import svg
+from table import table
+
+__version__ = "0.0.1"
